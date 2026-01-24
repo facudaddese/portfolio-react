@@ -1,0 +1,38 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-bar {
+    padding: 25px;
+    background: linear-gradient(to bottom, #e9e9e9, #FFFFFF);
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ul li {
+    list-style: none;
+}
+
+.hash-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    opacity: .4;
+}
+
+.ul li>.hash-link:hover {
+    opacity: .7;
+}
+
+.hash-link.active {
+    font-weight: bold;
+    opacity: 1;
+}
