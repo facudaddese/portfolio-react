@@ -15,7 +15,7 @@ const Proyectos = ({ titulo }) => {
     return (
         <section id="proyectos" className='proyectos'>
             <h2>{titulo}</h2>
-            <div className="grid-container">
+            <div className="flex-container-proyectos">
                 <div data-aos="fade-down">
                     <div className="grid-container__div">
                         <img src={imgCr7} alt="Imagen proyecto CR7" />
@@ -187,9 +187,9 @@ const Proyectos = ({ titulo }) => {
                         <img src={imgJava} alt="Logo de Java" />
 
                         <div className="grid-container__info">
-                            <h3 className="title-proyecto">Trabajo Práctico - Sistema de Gestión de Torneos de Fútbol
+                            <h3 className="title-proyecto">Sistema de Gestión de Torneos de Fútbol
                             </h3>
-                            <p className="grid-container__p">Este trabajo desarrollado en Java. Permite administrar
+                            <p className="grid-container__p">Este trabajo práctico desarrollado en Java en la Universidad Nacional de Lanús, permite administrar
                                 torneos,
                                 equipos y jugadores, generar tablas de posiciones y estadísticas, aplicando
                                 principios

@@ -2,7 +2,7 @@ import './SobreMi.css'
 import miFoto from '../../img/fotoCv(copia).jpeg'
 import logoCv from '../../img/logoCv.png'
 
-const SobreMi = ({nombre}) => {
+const SobreMi = ({ nombre }) => {
     const skills = [
         { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg' },
         { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg' },
@@ -32,7 +32,7 @@ const SobreMi = ({nombre}) => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
                                 className="github" />
                         </a>
-                        <a href="/docs/CV_Facundo_Daddese.pdf" className="contacto__link">
+                        <a href="/docs/CV_Facundo_Daddese.pdf" target="_blank" rel="noopener noreferrer" className="contacto__link">
                             <img src={logoCv} alt="Logo Cv" className='cv' /></a>
                     </div>
                 </div>

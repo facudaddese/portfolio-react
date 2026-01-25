@@ -5,7 +5,7 @@ const MainLayout = () => {
     return (
         <main>
             <SobreMi nombre="Facundo D'Addese" />
-            <Proyectos titulo="Proyectos" />
+            <Proyectos titulo="Proyectos personales" />
         </main>
     )
 }

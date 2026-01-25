@@ -28,7 +28,7 @@
 }
 
 .info-container>:first-child {
-    font-size: clamp(1.7rem, 2.5vw, 2.3rem);
+    font-size: clamp(1.7rem, 4vw, 2.2rem);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #272727;
@@ -46,7 +46,7 @@
 .info-container>:nth-child(3) {
     padding: 10px 0;
     line-height: 1.5;
-    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
 }
 
 .contacto-container {
@@ -130,3 +130,27 @@
     }
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width:768px) {
+
+    .info-container {
+        text-align: center;
+    }
+
+    .contacto-container {
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .mi-img {
+        width: 250px;
+    }
+}
+
+@media (max-width:550px) {
+
+    .carrousel-container {
+        width: 330px;
+    }
+}

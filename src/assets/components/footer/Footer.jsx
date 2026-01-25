@@ -29,7 +29,7 @@ const Footer = () => {
                         <img src={logoGmail} alt='Enviar mail a Facundo' />
                     </a>
                 </div>
-                <p>&copy; Portfolio web.</p>
+                <p>&copy; Facundo D'Addese | Portfolio Web.</p>
             </div>
         </footer>
     )

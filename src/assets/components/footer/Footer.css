@@ -6,7 +6,7 @@
 
 .title-footer {
     padding: 40px 0 20px;
-    font-size: clamp(1.3rem, 3.7vw, 1.9rem);
+    font-size: clamp(1.4rem, 2vw, 1.9rem);
     text-align: center;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .footer p {
-    letter-spacing: 1px;
+    padding-bottom: 30px;
 }
 
 /* FORM */
@@ -118,4 +118,13 @@ textarea::placeholder {
     cursor: pointer;
     background: #FFFFFF;
     color: #000000;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:550px) {
+
+    .title-footer {
+        padding: 40px 20px 20px;
+    }
 }
