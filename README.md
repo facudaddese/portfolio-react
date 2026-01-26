@@ -3,7 +3,7 @@
 
 ## Bienvenido a mi portfolio personal
 
-Este refleja mi aprendizaje continuo y mi interés por el desarrollo web. Se irá actualizando constantemente a medida que mejore los proyectos existentes o cree otros nuevos. [Ver sitio](https://facudaddese.github.io/portfolio/)
+Este refleja mi aprendizaje continuo y mi interés por el desarrollo web. Se irá actualizando constantemente a medida que mejore los proyectos existentes o cree otros nuevos. [Ver sitio](https://facundo-daddese.netlify.app/)
 
 ## ¿Qué contiene?
 
