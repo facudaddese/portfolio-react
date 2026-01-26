@@ -24,7 +24,7 @@ const SobreMi = ({ nombre }) => {
                     <p>Estudiante de la Licenciatura en Sistemas en la Universidad Nacional de Lanús, enfocado en el Desarrollo Web FrontEnd (HTML, CSS, JavaScript y React), con conocimientos en BackEnd (Java, SQL). En este portfolio muestro proyectos que reflejan mi crecimiento y evolución como desarrollador.
                     </p>
                     <div className="contacto-container">
-                        <a href="https://www.linkedin.com/in/facundo-d-addese-797b241aa/" target="_blank"
+                        <a href="https://www.linkedin.com/in/facundodaddese/" target="_blank"
                             className="contacto__link"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
                                 className="linkedin" /></a>
                         <a href="https://github.com/facudaddese?tab=repositories" target="_blank"
@@ -32,7 +32,7 @@ const SobreMi = ({ nombre }) => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
                                 className="github" />
                         </a>
-                        <a href="/docs/CV_Facundo_Daddese.pdf" target="_blank" rel="noopener noreferrer" className="contacto__link">
+                        <a href="/docs/CV_Facundo_Daddese_2026.pdf" target="_blank" rel="noopener noreferrer" className="contacto__link">
                             <img src={logoCv} alt="Logo Cv" className='cv' /></a>
                     </div>
                 </div>
