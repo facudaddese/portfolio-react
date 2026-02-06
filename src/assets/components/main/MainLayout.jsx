@@ -1,5 +1,5 @@
 import SobreMi from '../sobreMi/SobreMi'
-import Proyectos from '../proyectos/Proyectos'
+import Proyectos from '../proyectosContainer/ProyectosContainer'
 
 const MainLayout = () => {
     return (

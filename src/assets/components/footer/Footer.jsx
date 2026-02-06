@@ -1,16 +1,17 @@
 import './Footer.css'
-import logoGmail from "../../img/gmail_icon-icons.com_59877.ico"
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
 import Swal from 'sweetalert2'
+import Logos from '../logos/Logos'
+import logoCv from '../../img/logoCv.png'
 
 const Footer = () => {
 
-    const formRef = useRef()
+    const formRef = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault()
-        const form = formRef.current
+        const form = formRef.current;
 
         // validación email
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -24,12 +25,7 @@ const Footer = () => {
             return;
         }
 
-        emailjs.sendForm(
-            'service_6hrfv8l',
-            'template_lfvwzpn',
-            form,
-            'l-KXdsYqFE11VRNqI'
-        )
+        emailjs.sendForm('service_6hrfv8l', 'template_lfvwzpn', form, 'l-KXdsYqFE11VRNqI')
             .then(() => {
                 Swal.fire({
                     title: "¡Mensaje enviado!",
@@ -47,7 +43,6 @@ const Footer = () => {
                     icon: "error",
                     confirmButtonText: "OK"
                 })
-
             })
     }
 
@@ -73,15 +68,7 @@ const Footer = () => {
                 </form>
 
                 <div className="iconos-footer-container">
-                    <a href="https://www.linkedin.com/in/facundodaddese/" target="_blank" rel="noopener noreferrer">
-                        <i className="devicon-linkedin-plain"></i>
-                    </a>
-                    <a href="https://github.com/facudaddese?tab=repositories" target="_blank" rel="noopener noreferrer">
-                        <i className="devicon-github-original"></i>
-                    </a>
-                    <a href="mailto:facundo.daddese19@gmail.com">
-                        <img src={logoGmail} alt='Enviar mail a Facundo' />
-                    </a>
+                    <Logos logoCv={logoCv} />
                 </div>
 
                 <p>&copy; Facundo D'Addese | Portfolio Web.</p>
