@@ -91,14 +91,14 @@
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:510px) {
 
     .span {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 7px;
     }
 
     .grid-container__info span {
