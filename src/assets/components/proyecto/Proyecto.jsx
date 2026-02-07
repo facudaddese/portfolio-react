@@ -1,4 +1,4 @@
-const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4, url, repo }) => {
+const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4, page, repo }) => {
     return (
         <div data-aos="fade-down">
             <div className="grid-container__div">
@@ -13,9 +13,12 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                                 <span>{skill2}</span>
                                 <span>{skill3}</span>
                                 <span>{skill4}</span>
-                                <a href={url} target="_blank"
+                                <a href={page} target="_blank" rel="noopener noreferrer">
+                                    <span>SITIO WEB</span>
+                                </a>
+                                <a href={repo} target="_blank"
                                     rel="noopener noreferrer">
-                                    <span>{repo}</span>
+                                    <span>REPO</span>
                                 </a>
                             </div> :
                             skill1 === "HTML" ?
@@ -23,16 +26,19 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                                     <span>{skill1}</span>
                                     <span>{skill2}</span>
                                     <span>{skill3}</span>
-                                    <a href={url} target="_blank"
+                                    <a href={page} target="_blank" rel="noopener noreferrer">
+                                        <span>SITIO WEB</span>
+                                    </a>
+                                    <a href={repo} target="_blank"
                                         rel="noopener noreferrer">
-                                        <span>{repo}</span>
+                                        <span>REPO</span>
                                     </a>
                                 </div> :
                                 <div className="span">
                                     <span>{skill1}</span>
-                                    <a href={url} target="_blank"
+                                    <a href={repo} target="_blank"
                                         rel="noopener noreferrer">
-                                        <span>{repo}</span>
+                                        <span>REPO</span>
                                     </a>
                                 </div>
                     }
