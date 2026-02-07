@@ -26,11 +26,11 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                                     <span>{skill1}</span>
                                     <span>{skill2}</span>
                                     <span>{skill3}</span>
-                                    <a href={page} target="_blank" rel="noopener noreferrer">
+                                    <a href={page} target="_blank" rel="noopener noreferrer" className="sitio-web">
                                         <span>SITIO WEB</span>
                                     </a>
                                     <a href={repo} target="_blank"
-                                        rel="noopener noreferrer">
+                                        rel="noopener noreferrer" className="repo">
                                         <span>REPO</span>
                                     </a>
                                 </div> :

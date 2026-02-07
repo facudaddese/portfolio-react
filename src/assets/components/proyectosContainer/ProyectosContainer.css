@@ -94,11 +94,22 @@
 @media (max-width:510px) {
 
     .span {
-        display: flex;
-        flex-flow: row wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         justify-content: center;
+        justify-items: center;
         align-items: center;
-        gap: 7px;
+        gap: 10px;
+    }
+
+    .sitio-web {
+        grid-column: 1/3;
+        grid-row: 2/4;
+    }
+
+    .repo {
+        grid-column: 2/4;
+        grid-row: 2/4;
     }
 
     .grid-container__info span {
@@ -107,5 +118,18 @@
 
     .grid-container__div {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width:375px) {
+
+    .span {
+        grid-template-columns: 1fr;
+    }
+
+    .sitio-web,
+    .repo {
+        grid-column: auto;
+        grid-row: auto;
     }
 }
