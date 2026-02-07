@@ -93,6 +93,10 @@
 
 @media (max-width:510px) {
 
+    .ul {
+        justify-content: center;
+    }
+
     .span {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
