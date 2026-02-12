@@ -34,13 +34,24 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                                         <span>REPO</span>
                                     </a>
                                 </div> :
-                                <div className="span">
-                                    <span>{skill1}</span>
-                                    <a href={repo} target="_blank"
-                                        rel="noopener noreferrer">
-                                        <span>REPO</span>
-                                    </a>
-                                </div>
+                                skill1 === "REACT" ?
+                                    <div className="span">
+                                        <span>{skill1}</span>
+                                        <a href={page} target="_blank" rel="noopener noreferrer" className="sitio-web">
+                                            <span>SITIO WEB</span>
+                                        </a>
+                                        <a href={repo} target="_blank"
+                                            rel="noopener noreferrer">
+                                            <span>REPO</span>
+                                        </a>
+                                    </div> :
+                                    <div className="span">
+                                        <span>{skill1}</span>
+                                        <a href={repo} target="_blank"
+                                            rel="noopener noreferrer">
+                                            <span>REPO</span>
+                                        </a>
+                                    </div>
                     }
                 </div>
             </div>

@@ -8,6 +8,7 @@ import imgJava from '../../img/java.png'
 import imgLocademia from '../../img/locademia.png'
 import imgApiDbz from '../../img/apidbz.png'
 import imgApiClima from '../../img/apiclima.png'
+import imgApiPeli from '../../img/apipelis.png'
 import './ProyectosContainer.css'
 import Proyecto from '../proyecto/Proyecto'
 
@@ -21,7 +22,7 @@ const ProyectosContainer = ({ titulo }) => {
                                 carrera
                                 deportiva, títulos obtenidos y récords." skill1="HTML" skill2="CSS" skill3="SASS" skill4="BOOTSTRAP" page="https://cris7ianoronaldo.netlify.app/" repo="https://github.com/facudaddese/proyecto-cr7-39385" />
 
-                <Proyecto img={imgTrivia} alt="Imagen proyecto Trivia Futbolera" title="Trivia Futbolera" descripcion="Mi primer juego. Un quiz interactivo sobre fútbol, inspirado
+                <Proyecto img={imgTrivia} alt="Imagen proyecto Trivia Futbolera" title="Trivia Futbolera" descripcion="Quiz interactivo sobre fútbol, inspirado
                                 en el
                                 estilo de Preguntados. El usuario responde una serie de preguntas y al finalizar
                                 puede
@@ -72,6 +73,8 @@ const ProyectosContainer = ({ titulo }) => {
                                 temperatura, sensación térmica, velocidad del viento y ráfagas. Interfaz responsive con
                                 diseño dinámico que se
                                 adapta según la búsqueda realizada." skill1="HTML" skill2="CSS" skill3="JAVASCRIPT" page="https://facudaddese.github.io/api-clima/" repo="https://github.com/facudaddese/api-clima" />
+
+                <Proyecto img={imgApiPeli} alt="Imagen proyecto API de películas" title="API de películas y series" descripcion="Aplicación web que permite explorar películas y series. Los usuarios pueden filtrar contenido por género (Acción, Terror, Comedia, Aventura, Familiar) o tipo (Películas/Series) mediante botones interactivos, navegar por contenido dinámico que se actualiza según su selección, y buscar su película favorita utilizando el buscador integrado." skill1="REACT" page="https://pelis-api.netlify.app/" repo="https://github.com/facudaddese/api-peli" />
             </div>
         </section>
     )
