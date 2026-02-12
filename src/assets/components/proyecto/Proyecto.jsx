@@ -37,7 +37,7 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                                 skill1 === "REACT" ?
                                     <div className="span">
                                         <span>{skill1}</span>
-                                        <a href={page} target="_blank" rel="noopener noreferrer" className="sitio-web">
+                                        <a href={page} target="_blank" rel="noopener noreferrer">
                                             <span>SITIO WEB</span>
                                         </a>
                                         <a href={repo} target="_blank"
