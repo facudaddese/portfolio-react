@@ -14,10 +14,10 @@ const SobreMi = ({ nombre }) => {
                     <div className="strong">
                         <strong>Front-End Developer</strong>
                     </div>
-                    <p>Estudiante de la Licenciatura en Sistemas en la Universidad Nacional de Lanús, enfocado en el Desarrollo Web FrontEnd (HTML, CSS, JavaScript y React), con conocimientos en BackEnd (Java, SQL). En este portfolio muestro proyectos que reflejan mi crecimiento y evolución como desarrollador.
+                    <p>Estudiante avanzado de la Licenciatura en Sistemas en la Universidad Nacional de Lanús y Frontend Developer con React & Tailwind CSS. En este portfolio muestro mis proyectos y habilidades.
                     </p>
                     <div className="contacto-container">
-                        <Logos logoCv={logoCv}/>
+                        <Logos logoCv={logoCv} />
                     </div>
                 </div>
             </div>

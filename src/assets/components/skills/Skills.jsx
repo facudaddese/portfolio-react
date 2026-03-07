@@ -4,9 +4,9 @@ const Skills = () => {
         { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg' },
         { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' },
         { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg' },
-        { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg' },
-        { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg' },
-        // { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg' }
+        { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' }
+        // { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg' },
+        // { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg' }
     ];
 
     return (
@@ -14,11 +14,13 @@ const Skills = () => {
             <h2>Skills</h2>
             <div className="carrousel-container">
                 <div className="carrousel">
-                    {[...skills, ...skills].map((skill, index) => (
-                        <div key={index} className="skill-item">
-                            <img src={skill.icon} />
-                        </div>
-                    ))}
+                    {
+                        [...skills, ...skills].map((skill, index) => (
+                            <div key={index} className="skill-item">
+                                <img src={skill.icon} />
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </>
