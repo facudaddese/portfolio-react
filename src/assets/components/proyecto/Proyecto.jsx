@@ -1,4 +1,4 @@
-const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4, page, repo }) => {
+const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, page, repo }) => {
     return (
         <div className="grid-container__div">
             <img src={img} alt={alt} />
@@ -6,12 +6,21 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                 <h3 className="title-proyecto">{title}</h3>
                 <p className="grid-container__p">{descripcion}</p>
                 {
-                    skill4 === "BOOTSTRAP" ?
+                    skill1 === "HTML" ?
                         <div className="span">
                             <span>{skill1}</span>
                             <span>{skill2}</span>
                             <span>{skill3}</span>
-                            <span>{skill4}</span>
+                            <a href={page} target="_blank" rel="noopener noreferrer" className="sitio-web">
+                                <span>SITIO WEB</span>
+                            </a>
+                            <a href={repo} target="_blank"
+                                rel="noopener noreferrer" className="repo">
+                                <span>REPO</span>
+                            </a>
+                        </div> :
+                        <div className="span">
+                            <span>{skill1}</span>
                             <a href={page} target="_blank" rel="noopener noreferrer">
                                 <span>SITIO WEB</span>
                             </a>
@@ -19,38 +28,7 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, skill4
                                 rel="noopener noreferrer">
                                 <span>REPO</span>
                             </a>
-                        </div> :
-                        skill1 === "HTML" ?
-                            <div className="span">
-                                <span>{skill1}</span>
-                                <span>{skill2}</span>
-                                <span>{skill3}</span>
-                                <a href={page} target="_blank" rel="noopener noreferrer" className="sitio-web">
-                                    <span>SITIO WEB</span>
-                                </a>
-                                <a href={repo} target="_blank"
-                                    rel="noopener noreferrer" className="repo">
-                                    <span>REPO</span>
-                                </a>
-                            </div> :
-                            skill1 === "REACT" ?
-                                <div className="span">
-                                    <span>{skill1}</span>
-                                    <a href={page} target="_blank" rel="noopener noreferrer">
-                                        <span>SITIO WEB</span>
-                                    </a>
-                                    <a href={repo} target="_blank"
-                                        rel="noopener noreferrer">
-                                        <span>REPO</span>
-                                    </a>
-                                </div> :
-                                <div className="span">
-                                    <span>{skill1}</span>
-                                    <a href={repo} target="_blank"
-                                        rel="noopener noreferrer">
-                                        <span>REPO</span>
-                                    </a>
-                                </div>
+                        </div>
                 }
             </div>
         </div>
