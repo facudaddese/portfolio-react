@@ -21,6 +21,9 @@ const Proyecto = ({ img, alt, title, descripcion, skill1, skill2, skill3, page, 
                         </div> :
                         <div className="span">
                             <span>{skill1}</span>
+                            {
+                                skill2 && <span>{skill2}</span>
+                            }
                             <a href={page} target="_blank" rel="noopener noreferrer">
                                 <span>SITIO WEB</span>
                             </a>
