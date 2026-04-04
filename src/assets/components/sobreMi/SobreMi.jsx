@@ -14,8 +14,7 @@ const SobreMi = ({ nombre }) => {
                     <div className="strong">
                         <strong>Front-End Developer</strong>
                     </div>
-                    <p>Estudiante avanzado de la Licenciatura en Sistemas en la Universidad Nacional de Lanús y Frontend Developer con React & Tailwind CSS. En este portfolio muestro mis proyectos y habilidades.
-                    </p>
+                    <p>Estudiante avanzado de la Licenciatura en Sistemas en la Universidad Nacional de Lanús y Frontend Developer con React, TypeScript & Tailwind CSS. En este portfolio muestro mis proyectos y habilidades.</p>
                     <div className="contacto-container">
                         <Logos logoCv={logoCv} />
                     </div>

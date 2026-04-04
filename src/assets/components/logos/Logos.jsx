@@ -1,4 +1,4 @@
-const Logos = ({logoCv}) => {
+const Logos = ({ logoCv }) => {
     return (
         <>
             <a href="https://www.linkedin.com/in/facundodaddese/" target="_blank"
@@ -9,7 +9,7 @@ const Logos = ({logoCv}) => {
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
                     className="github" />
             </a>
-            <a href="/docs/CV_Facundo_Daddese.pdf" target="_blank" rel="noopener noreferrer" className="contacto__link">
+            <a href="/docs/CV_Facundo_Daddese_2026.pdf" target="_blank" rel="noopener noreferrer" className="contacto__link">
                 <img src={logoCv} alt="Logo Cv" className='cv' />
             </a>
         </>
