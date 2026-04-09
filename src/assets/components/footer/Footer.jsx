@@ -71,7 +71,7 @@ const Footer = () => {
                     <Logos logoCv={logoCv} />
                 </div>
 
-                <p>&copy; Facundo D'Addese | Portfolio Web.</p>
+                <p>&copy; {new Date().getFullYear()} Facundo D'Addese | Portfolio Web.</p>
             </div>
         </footer>
     )

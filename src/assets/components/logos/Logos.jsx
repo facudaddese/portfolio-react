@@ -9,7 +9,7 @@ const Logos = ({ logoCv }) => {
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
                     className="github" />
             </a>
-            <a href="/docs/CV_FacundoDaddese.pdf?v=2" target="_blank" rel="noopener noreferrer" className="contacto__link">
+            <a href="https://drive.google.com/file/d/1dplrGFP7DhLXLQCuj2sA-66sAV0yER_g/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contacto__link">
                 <img src={logoCv} alt="Logo Cv" className='cv' />
             </a>
         </>
