@@ -14,13 +14,12 @@ Este refleja mi aprendizaje continuo y mi interés por el desarrollo web. Se ir�
 
 ## Tecnologías y habilidades
 
-- HTML5, CSS3, JavaScript
+- HTML5, CSS3, JavaScript(ES6+)
+- Tailwind CSS
 - React
-- Java
-- SQL
 
 ## Contacto
 
 - **LinkedIn**: [Facundo D'addese](https://www.linkedin.com/in/facundodaddese/) 
 - **Correo**: facundo.daddese19@gmail.com 
-- **CV**: [Facundo D'addese](https://drive.google.com/file/d/1W97_4eFuO7Ya61kCkgJZXANOm5y9yz8I/view?usp=sharing)
+- **CV**: [Facundo D'addese](https://drive.google.com/file/d/1dplrGFP7DhLXLQCuj2sA-66sAV0yER_g/view?usp=sharing)
